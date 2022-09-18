@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "packet",
+  "version": "${version}",
+  "name": "Protocol Packet Size Fix",
+  "description": "Fixes the packet size limit for the protocol",
+  "authors": [
+    "Mysticpasta1"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mystic.packet.fabric.PacketFabric"
+    ]
+  },
+  "mixins": [
+    "packet.mixins.json",
+    "packet-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.9.83"
+  }
+}
