@@ -1,6 +1,6 @@
 package com.mystic.packet.forge;
 
-import net.examplemod.ExampleExpectPlatform;
+import com.mystic.packet.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;

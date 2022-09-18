@@ -5,6 +5,8 @@
   "client": [
   ],
   "mixins": [
+    "PacketBufferMixin",
+    "PacketInflaterMixin"
   ],
   "injectors": {
     "defaultRequire": 1

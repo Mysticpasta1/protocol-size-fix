@@ -1,6 +1,6 @@
 package com.mystic.packet.fabric;
 
-import net.examplemod.ExampleExpectPlatform;
+import com.mystic.packet.ExampleExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;

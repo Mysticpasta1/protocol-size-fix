@@ -1,15 +1,15 @@
-package net.examplemod.forge;
+package com.mystic.packet.forge;
 
 import dev.architectury.platform.forge.EventBuses;
-import net.examplemod.ExampleMod;
+import com.mystic.packet.Packet;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod(ExampleMod.MOD_ID)
-public class ExampleModForge {
-    public ExampleModForge() {
+@Mod(Packet.MOD_ID)
+public class PacketForge {
+    public PacketForge() {
         // Submit our event bus to let architectury register our content on the right time
-        EventBuses.registerModEventBus(ExampleMod.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
-        ExampleMod.init();
+        EventBuses.registerModEventBus(Packet.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
+        Packet.init();
     }
 }
